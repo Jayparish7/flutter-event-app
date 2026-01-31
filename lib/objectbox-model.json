@@ -1,0 +1,724 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4791775119429056139",
+      "lastPropertyId": "5:9029872620222177387",
+      "name": "PhotomallStudioInfo",
+      "properties": [
+        {
+          "id": "1:5775399150364856103",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5717680466916800805",
+          "name": "code",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "1:2079029846526527576"
+        },
+        {
+          "id": "3:7404645684014427000",
+          "name": "value",
+          "type": 9
+        },
+        {
+          "id": "4:2886247140152997572",
+          "name": "role",
+          "type": 9
+        },
+        {
+          "id": "5:9029872620222177387",
+          "name": "lastUpdatedAt",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2395896341590464028",
+      "lastPropertyId": "12:7461055347742916989",
+      "name": "Events",
+      "properties": [
+        {
+          "id": "1:936715971889546136",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:893764797130346957",
+          "name": "code",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "2:4663715571026047092"
+        },
+        {
+          "id": "3:7382526256706567695",
+          "name": "studioCode",
+          "type": 9
+        },
+        {
+          "id": "4:8426608997819128095",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:7176179947751620023",
+          "name": "categoryName",
+          "type": 9
+        },
+        {
+          "id": "6:691918072750678266",
+          "name": "published",
+          "type": 1
+        },
+        {
+          "id": "7:5308557993993638640",
+          "name": "lastUpdatedAt",
+          "type": 6
+        },
+        {
+          "id": "8:2028710395852360237",
+          "name": "coverImage",
+          "type": 9
+        },
+        {
+          "id": "9:4098279001951325713",
+          "name": "userName",
+          "type": 9
+        },
+        {
+          "id": "10:3054814800659935444",
+          "name": "screenDisplay",
+          "type": 6
+        },
+        {
+          "id": "11:2325420108599625624",
+          "name": "pageNumber",
+          "type": 6
+        },
+        {
+          "id": "12:7461055347742916989",
+          "name": "createdAt",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2099587588960550649",
+      "lastPropertyId": "14:7341741048030299113",
+      "name": "Album",
+      "properties": [
+        {
+          "id": "1:6557619908894002197",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5644659277311289786",
+          "name": "code",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "3:7162304538228464684"
+        },
+        {
+          "id": "3:4818664032134420026",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:3354058114757016359",
+          "name": "size",
+          "type": 9
+        },
+        {
+          "id": "5:1527778716520161475",
+          "name": "path",
+          "type": 9
+        },
+        {
+          "id": "6:2921134273140824219",
+          "name": "type",
+          "type": 6
+        },
+        {
+          "id": "7:1059203093539984601",
+          "name": "eventCode",
+          "type": 9
+        },
+        {
+          "id": "8:7150958319653698408",
+          "name": "lastUpdatedAt",
+          "type": 6
+        },
+        {
+          "id": "9:6580266505707614179",
+          "name": "orderLastUpdatedAt",
+          "type": 6
+        },
+        {
+          "id": "10:3520711132634470540",
+          "name": "deviceId",
+          "type": 9
+        },
+        {
+          "id": "11:3855326338489182341",
+          "name": "filesCount",
+          "type": 6
+        },
+        {
+          "id": "12:1490101828326415490",
+          "name": "imagesCount",
+          "type": 6
+        },
+        {
+          "id": "13:3488795593786374296",
+          "name": "directoryModifiedTime",
+          "type": 9
+        },
+        {
+          "id": "14:7341741048030299113",
+          "name": "uploadStatus",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:458375442199500388",
+      "lastPropertyId": "14:5163284715317575401",
+      "name": "Folder",
+      "properties": [
+        {
+          "id": "1:4924923639518391273",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:439517019529647242",
+          "name": "code",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "4:8655974649199871254"
+        },
+        {
+          "id": "3:945034341276732880",
+          "name": "eventCode",
+          "type": 9
+        },
+        {
+          "id": "4:8821870849776236416",
+          "name": "parentCode",
+          "type": 9
+        },
+        {
+          "id": "5:553754820277004798",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "6:630001603164147599",
+          "name": "path",
+          "type": 9
+        },
+        {
+          "id": "7:7557713845233727049",
+          "name": "sync",
+          "type": 1
+        },
+        {
+          "id": "8:7430350610119122120",
+          "name": "lastUpdatedAt",
+          "type": 6
+        },
+        {
+          "id": "9:2721554877938319206",
+          "name": "deviceId",
+          "type": 9
+        },
+        {
+          "id": "10:3512742531408923942",
+          "name": "segregationPath",
+          "type": 9
+        },
+        {
+          "id": "11:5344132665310683075",
+          "name": "customSegregationPath",
+          "type": 9
+        },
+        {
+          "id": "12:2606281021126419700",
+          "name": "segregationFormat",
+          "type": 9
+        },
+        {
+          "id": "13:1499221387767567877",
+          "name": "filesCount",
+          "type": 6
+        },
+        {
+          "id": "14:5163284715317575401",
+          "name": "uploadStatus",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:941515915560127632",
+      "lastPropertyId": "7:6759675996965279911",
+      "name": "Notification",
+      "properties": [
+        {
+          "id": "1:8724954022050099422",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7032750166403813564",
+          "name": "notification",
+          "type": 9
+        },
+        {
+          "id": "3:3429816411372328020",
+          "name": "eventCode",
+          "type": 9
+        },
+        {
+          "id": "4:20146497812054455",
+          "name": "notificationData",
+          "type": 9
+        },
+        {
+          "id": "5:1315756956174360138",
+          "name": "readStatus",
+          "type": 1
+        },
+        {
+          "id": "6:6708082601226550871",
+          "name": "confirmStatus",
+          "type": 1
+        },
+        {
+          "id": "7:6759675996965279911",
+          "name": "createdAt",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:4991894810971522383",
+      "lastPropertyId": "21:7839628652217319634",
+      "name": "OrderImage",
+      "properties": [
+        {
+          "id": "1:1396451898665568735",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:716047238789240325",
+          "name": "eventCode",
+          "type": 9
+        },
+        {
+          "id": "3:5064196537948895717",
+          "name": "code",
+          "type": 9
+        },
+        {
+          "id": "4:8301033346070991993",
+          "name": "albumCode",
+          "type": 9
+        },
+        {
+          "id": "5:4001853549684627691",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "6:5196829168764512644",
+          "name": "path",
+          "type": 9
+        },
+        {
+          "id": "7:8702364805380977830",
+          "name": "uploaded",
+          "type": 1
+        },
+        {
+          "id": "8:1491282380700956810",
+          "name": "sha256",
+          "type": 9
+        },
+        {
+          "id": "9:3565299352277749286",
+          "name": "md5hash",
+          "type": 9
+        },
+        {
+          "id": "10:1087030074078691329",
+          "name": "preSignedURlCode",
+          "type": 9
+        },
+        {
+          "id": "11:6205694526907261045",
+          "name": "ratio",
+          "type": 9
+        },
+        {
+          "id": "12:6366950485720946294",
+          "name": "screenDisplay2ImageUrl",
+          "type": 9
+        },
+        {
+          "id": "13:1995136791426244646",
+          "name": "screenDisplay2Md5hash",
+          "type": 9
+        },
+        {
+          "id": "14:8661465405334266825",
+          "name": "screenDisplay2PreSignedURlCode",
+          "type": 9
+        },
+        {
+          "id": "15:5663525222090930257",
+          "name": "compressionStatus",
+          "type": 6
+        },
+        {
+          "id": "16:251804346196346770",
+          "name": "screenDisplay2ratio",
+          "type": 9
+        },
+        {
+          "id": "17:6651335292798943823",
+          "name": "preSignedURl",
+          "type": 9
+        },
+        {
+          "id": "18:8840467344099379285",
+          "name": "screenDisplay2PreSignedURl",
+          "type": 9
+        },
+        {
+          "id": "19:2035667049479925709",
+          "name": "imageBytes",
+          "type": 23
+        },
+        {
+          "id": "20:2080552818476043686",
+          "name": "screenDisplay2imageBytes",
+          "type": 23
+        },
+        {
+          "id": "21:7839628652217319634",
+          "name": "uploadStatus",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:7505997667998397792",
+      "lastPropertyId": "16:8557778402317765784",
+      "name": "PhotoSelectionImage",
+      "properties": [
+        {
+          "id": "1:7804663576246465994",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8575785325980879703",
+          "name": "eventCode",
+          "type": 9
+        },
+        {
+          "id": "3:2941977449821766745",
+          "name": "code",
+          "type": 9
+        },
+        {
+          "id": "4:1880689645122592983",
+          "name": "folderCode",
+          "type": 9
+        },
+        {
+          "id": "5:1862786925382422721",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "6:8268578337617310241",
+          "name": "path",
+          "type": 9
+        },
+        {
+          "id": "7:9121359489877671730",
+          "name": "uploaded",
+          "type": 1
+        },
+        {
+          "id": "8:2380206971574749409",
+          "name": "lastUpdatedAt",
+          "type": 6
+        },
+        {
+          "id": "9:2042024777538724931",
+          "name": "sha256",
+          "type": 9
+        },
+        {
+          "id": "10:1311061852731554602",
+          "name": "md5hash",
+          "type": 9
+        },
+        {
+          "id": "11:7818557871894661655",
+          "name": "preSignedURlCode",
+          "type": 9
+        },
+        {
+          "id": "12:3520581410134109044",
+          "name": "ratio",
+          "type": 9
+        },
+        {
+          "id": "13:1552801546905583919",
+          "name": "preSignedURl",
+          "type": 9
+        },
+        {
+          "id": "14:436711105598180699",
+          "name": "imageBytes",
+          "type": 23
+        },
+        {
+          "id": "15:9121542353083283041",
+          "name": "uploadStatus",
+          "type": 6
+        },
+        {
+          "id": "16:8557778402317765784",
+          "name": "compressionStatus",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:2220386470074825737",
+      "lastPropertyId": "5:219392647092251397",
+      "name": "PhotoSelectionImageCondition",
+      "properties": [
+        {
+          "id": "1:7127737698236199950",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6657932083884359899",
+          "name": "code",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "5:8515037570982081381"
+        },
+        {
+          "id": "3:3029318168100621258",
+          "name": "status",
+          "type": 6
+        },
+        {
+          "id": "4:9175070017180289624",
+          "name": "rating",
+          "type": 6
+        },
+        {
+          "id": "5:219392647092251397",
+          "name": "comment",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "10:2585397030418760008",
+      "lastPropertyId": "7:5543753868395772066",
+      "name": "PhotoSelection",
+      "properties": [
+        {
+          "id": "1:4508113974080946799",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8960472607053806793",
+          "name": "code",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "6:4444027756903241267"
+        },
+        {
+          "id": "3:3574406884310626248",
+          "name": "eventCode",
+          "type": 9
+        },
+        {
+          "id": "4:6216369931119820908",
+          "name": "published",
+          "type": 1
+        },
+        {
+          "id": "5:8886635138036501366",
+          "name": "confirmedStatus",
+          "type": 1
+        },
+        {
+          "id": "6:6367716402264540444",
+          "name": "lastUpdatedAt",
+          "type": 6
+        },
+        {
+          "id": "7:5543753868395772066",
+          "name": "confirmedLastUpdatedAt",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "11:2536876836619744368",
+      "lastPropertyId": "7:7336839024408569430",
+      "name": "TransportData",
+      "properties": [
+        {
+          "id": "1:6980738546280491563",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2679810484133223183",
+          "name": "code",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "7:6623138857685545278"
+        },
+        {
+          "id": "3:8382994889029619793",
+          "name": "tag",
+          "type": 9
+        },
+        {
+          "id": "4:6155768983116673001",
+          "name": "lastUpdatedAt",
+          "type": 6
+        },
+        {
+          "id": "5:8134333409499628741",
+          "name": "updateRequired",
+          "type": 6
+        },
+        {
+          "id": "6:2521496370684033050",
+          "name": "data",
+          "type": 9
+        },
+        {
+          "id": "7:7336839024408569430",
+          "name": "role",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "12:6375300427512319686",
+      "lastPropertyId": "7:2955842287347815545",
+      "name": "UploadState",
+      "properties": [
+        {
+          "id": "1:3169109957617999491",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3743538965933878185",
+          "name": "eventName",
+          "type": 9
+        },
+        {
+          "id": "3:607120095174130307",
+          "name": "albumName",
+          "type": 9
+        },
+        {
+          "id": "4:8846032302513206451",
+          "name": "uploadingImageName",
+          "type": 9
+        },
+        {
+          "id": "5:2681858046861958931",
+          "name": "totalFilesCount",
+          "type": 6
+        },
+        {
+          "id": "6:1245897512437254698",
+          "name": "remainingFilesCount",
+          "type": 6
+        },
+        {
+          "id": "7:2955842287347815545",
+          "name": "uploadComplete",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "12:6375300427512319686",
+  "lastIndexId": "7:6623138857685545278",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    3192617873365191087
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    6207100888797539344,
+    7815424935456953451,
+    8243952617724853290,
+    6638429768442738848,
+    9106751559807011011,
+    1946066135746304900,
+    2839001967216729906,
+    5066505901422208140,
+    4990165074171242574,
+    5555539363266696556,
+    5214720989049675382,
+    6432676954622587615,
+    5868486365628634741,
+    825449387018753089,
+    2678576175336837571
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

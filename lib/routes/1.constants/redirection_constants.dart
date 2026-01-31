@@ -1,0 +1,1 @@
+const sideMenuRedirectionRouteConstants = 'side-menu';

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libmedia_kit_native_event_loop.so -o libmedia_kit_native_event_loop.so CMakeFiles/media_kit_native_event_loop.dir/media_kit_native_event_loop.cc.o  /usr/lib/x86_64-linux-gnu/libmpv.so 

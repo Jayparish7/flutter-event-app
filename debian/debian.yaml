@@ -1,0 +1,17 @@
+flutter_app:
+  command: photomall_event_manager
+  arch: x64
+  parent: /usr/local/lib
+  nonInteractive: false
+
+control:
+  Package: photomall-event-manager
+  Version: 1.0.0
+  Architecture: amd64
+  Priority: optional
+  Depends:
+  Maintainer:
+  Description: Event Manager can easily manage your events!
+
+#options:
+#  exec_out_dir: debian/packages

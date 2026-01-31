@@ -1,0 +1,3 @@
+/home/jayparish/A.Projects/PhotomallStudioManager/linux/runner/_deps/sqlite3-subbuild/CMakeFiles/sqlite3-populate.dir
+/home/jayparish/A.Projects/PhotomallStudioManager/linux/runner/_deps/sqlite3-subbuild/CMakeFiles/edit_cache.dir
+/home/jayparish/A.Projects/PhotomallStudioManager/linux/runner/_deps/sqlite3-subbuild/CMakeFiles/rebuild_cache.dir
